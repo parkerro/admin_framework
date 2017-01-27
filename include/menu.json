@@ -1,0 +1,31 @@
+[
+  {
+    "url": "index",
+    "name": "總覽",
+    "icon": "fa-dashboard",
+    "sub": false
+  },
+  {
+    "url": "users",
+    "name": "會員管理",
+    "icon": "fa-users",
+    "sub": [
+      {
+        "url": "users_search",
+        "name": "會員查詢",
+        "icon": "fa-search-plus"
+      },
+      {
+        "url": "users_ban",
+        "name": "黑名單管理",
+        "icon": "fa-minus-circle"
+      }
+    ]
+  },
+  {
+    "url": "report",
+    "name": "舉報管理",
+    "icon": "fa-thumbs-o-down",
+    "sub": false
+  }
+]
